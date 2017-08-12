@@ -1,7 +1,7 @@
 Options -MultiViews
 RewriteEngine On
 
-RewriteBase /store0/sw
+RewriteBase /ws-zero/ws
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
