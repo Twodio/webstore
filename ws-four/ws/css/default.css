@@ -1,0 +1,63 @@
+body {
+    background-color:silver;
+    font-family:Verdana, Arial, sans-serif;
+}
+
+#header {
+    padding:20px;
+    width:860px;
+    margin:0 auto;
+    background:gold;
+}
+
+#header-title > h2 {
+    margin:0;
+    font-weight:400;
+    letter-spacing:2px;
+}
+
+#header-bar {
+    margin-top:1em;
+    overflow:auto;
+}
+
+.menu {
+    float:left;
+}
+
+.menu > a {
+    padding-right:2em;
+    font-size:18px;
+    text-decoration:none;
+}
+
+.menu > a:hover {
+    text-decoration:underline;
+}
+
+.cart {
+    float:right;
+}
+
+.cart > a {
+    text-decoration:none;
+}
+
+.cart > a:hover {
+    text-decoration:underline;
+}
+
+#content {
+    padding:20px;
+    width:860px;
+    margin:0 auto;
+    background:#fff;
+}
+
+#footer {
+    padding:20px;
+    width:860px;
+    margin:0 auto;
+    background:green;
+}
+

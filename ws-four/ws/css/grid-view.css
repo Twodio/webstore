@@ -1,0 +1,33 @@
+ul.products {
+    padding:0;
+}
+ul.products li {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    text-align:left;
+}
+ul.products li a {
+    text-decoration:none;
+    color:#aca5a5;
+}
+
+ul.products li a img {
+    width:100%;
+}
+
+ul.products li a.adicionar-btn {
+    width:200px;
+    display:block;
+    padding:.5em;
+    text-align:center;
+    border-radius:2px;
+    background:#a19898;
+    color:#ffffff;
+}
+
+a.adicionar-btn:hover {
+    opacity:0.5;
+}
