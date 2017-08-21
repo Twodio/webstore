@@ -1,5 +1,5 @@
 <?php
-
+/*teste de edi~ção*/
 DEFINE('DS', DIRECTORY_SEPARATOR);
 DEFINE('MAIN_ROOT', dirname(dirname(__FILE__)));
 DEFINE('PUBLIC_PATH', MAIN_ROOT . DS . 'ws');
